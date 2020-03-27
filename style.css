@@ -1,0 +1,168 @@
+            @font-face {
+                font-family: Arimo;
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo.woff);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo.svg);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.eot);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.svg);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.ttf);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.eot);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.woff);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Bold.woff2);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.eot);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.svg);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.ttf);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.woff);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-BoldItalic.woff2);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.eot);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.svg);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.ttf);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.woff);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Italic.woff2);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Regular.eot);
+                src: url(D:/Working/homework5/homework5.1/fonts/arimo/Arimo-Regular.ttf);
+            }
+            
+            body {
+                background-color: #3a4965;
+                background-size: 100%;
+                font-family: 'Arimo', "Awesome Font", Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            table {
+                width: 1140px;
+                background-color: #f0eded;
+                margin: auto;
+                display: block;
+                position: absolute;
+                top: 5%;
+                right: 2%;
+                left: 2%;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            
+            table,
+            tr td {
+                border: none;
+                border-collapse: collapse;
+                color: #848484;
+            }
+            
+            tr td {
+                text-align: center;
+                padding: 15px;
+                font-size: 16pt;
+                border-bottom: 1px solid #cacaca;
+                width: 150px;
+            }
+            
+            .row1 td,
+            .row2 td,
+            .row3 td,
+            .row4 td {
+                position: relative;
+            }
+            
+            .row4 td:nth-of-type(2n+2),
+            .row3 td:nth-of-type(2n+2),
+            .row2 td:nth-of-type(2n+2),
+            .row1 td:nth-of-type(2n+2) {
+                background: #e3e3e3;
+                /*background: #f0eded;*/
+            }
+            
+            .row1 td:first-child {
+                background: #ffffff;
+            }
+            
+            .row1 td {
+                height: 110px;
+                color: #414141;
+                font-weight: 600;
+            }
+            
+            .baks {
+                font-size: 34pt;
+                font-weight: 700;
+                margin-left: -150px;
+                margin-top: 50px;
+            }
+            
+            .up99 {
+                position: absolute;
+                float: left;
+                top: 45px;
+                left: 100px;
+                font-weight: 700;
+                height: 35px;
+                margin-right: 30px;
+            }
+            
+            .shift {
+                display: block;
+                width: 130px;
+                margin-left: 120px;
+                margin-top: -29px;
+            }
+            
+            .row2 td:nth-child(1) {
+                background: #89c331;
+                color: #fff;
+                border-color: #89c331;
+            }
+            
+            .row3 td:nth-child(1) {
+                background: #f04a56;
+                color: #fff;
+                border-color: #f04a56;
+            }
+            
+            .row4 td:nth-child(1) {
+                background: #20807c;
+                color: #fff;
+                border-color: #20807c;
+            }
+            
+            .fa {
+                margin-right: 10px;
+            }
+            
+            button {
+                width: 190px;
+                height: 50px;
+                margin: 25px;
+                border: none;
+                color: #fff;
+                text-transform: uppercase;
+                position: relative;
+                background-color: #414141;
+                border-radius: 5px;
+            }
+            
+            button::after {
+                content: " ";
+                width: 190px;
+                height: 7px;
+                background-color: hsla(0, 0%, 0%, 30%);
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            
+            button:hover {
+                background-color: #1b1b1b;
+            }
+            
+            .text {
+                font-size: 10pt;
+            }
+            
+            .row1 th {
+                color: #000;
+            }
+            
+            .col1 {
+                width: 200px;
+            }
